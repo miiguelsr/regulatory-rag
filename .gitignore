@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (excepto samples)
+data/raw/
+data/processed/
+data/evaluation/results/
+!data/samples/
+
+# Modelos descargados
+*.ckpt
+*.pth
+*.gguf
+
+# OS
+.DS_Store
+Thumbs.db
